@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+
+header {
+    font-family: Tahoma;
+    text-align: center;
+    background-color: #17072b;
+}
+
+header h1 {
+    font-size: 56px;
+    padding: 24px;
+    width: auto;
+    padding-bottom: 0;
+    color: #FFFFFF;
+    display: inline-block;
+    border-bottom: 5px solid;
+}
+
+header nav {
+    padding-bottom: 20px;
+}
+
+header a{
+    padding: 24px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+nav {
+    flex-basis: 30%;
+}
+
+a:hover {
+    color: #8c15e9
+}
+
+#content {
+    display: flex;
+}
+
+#content div {
+    flex: 1;
+}
+
+#intro {
+    padding: 0 0 20px 40px;
+}
+
+#intro h1 {
+    color: black;
+    font-size: 36px;
+    display: inline-block;
+    margin-bottom: 0;
+    border-bottom: 5px solid;
+}
+
+#intro p {
+    color: #000000;
+    width: 105%;
+    font-size: 20px;
+}
+
+#intro img {
+    display: block;
+    object-fit: cover;
+}
+
+#bluebox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    background-color: #172d67;
+    padding: 0 20px 5px 0;
+}
+
+#bluebox h1 {
+    color: white;
+    font-size: 36px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 0;
+    border-bottom: 5px solid;
+}
+
+#bluebox p {
+    color: white;
+    font-size: 23px;
+    margin-left: 20px;
+}
+
+#picture {
+    margin-left: 20px;
+    display: flex;
+}
+
+#picture div {
+    margin-right: 11px;
+}
+
+footer {
+    bottom: 0;
+    background-color: #310454;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    color: #FFFFFF;
+}

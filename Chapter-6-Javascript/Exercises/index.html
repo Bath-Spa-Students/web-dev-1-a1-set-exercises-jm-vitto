@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="interaction.js"></script>
+</head>
+<body>
+    <div class="calcu">
+        <h1>Petrol Calculator</h1>
+        <div class="number">
+            <div>
+                <label for="km">Distance</label>
+            </div>
+            <div>
+                <input type="number" name="Km" id="km" placeholder="1.72">
+            </div>
+            
+            <div>
+                <label for="gas">Fuel</label>
+            </div>  
+            <div>
+                <input type="number" name="fuel" id="gas" placeholder="1">
+            </div>
+        </div>
+        <button onclick="Cost()">Total Price:</button>
+        <div id="cost"></div>
+    </div>
+</body>
+</html>

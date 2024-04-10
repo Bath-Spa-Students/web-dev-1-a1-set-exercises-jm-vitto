@@ -1,0 +1,103 @@
+/* Global Styles */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    background-color: rgb(213, 191, 254);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 159, 249, 0.9);
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    right: 2%;
+    width: 92%;
+    padding: 5px 65px 10px 23px;
+    border-radius: 23px;
+}
+
+.nav ul {
+    display: flex;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.nav ul li {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: black;
+    padding: 9px 29px;
+    transition: all .3s ease-in;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: rgba(82, 0, 126, 0.4);
+    color: black;
+    box-shadow: 0 0 10px white;
+    border-radius: 23px;
+}
+
+/* Main Content */
+main {
+    padding-top: 80px; /* Adjusted for the fixed navbar */
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(196, 159, 249, 0.9);
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer small {
+    font-size: 14px;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+footer a:hover {
+    color: rgb(180, 99, 246);
+}

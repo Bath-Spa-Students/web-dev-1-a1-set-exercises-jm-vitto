@@ -1,0 +1,116 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    background-color: rgb(213, 191, 254);
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(196, 159, 249, 0.9);
+    position: fixed;
+    top: 2%;
+    left: 1%;
+    right: 2%;
+    width: 92%;
+    padding: 5px 65px 10px 23px;
+    border-radius: 23px;
+}
+
+.nav ul {
+    display: flex;
+    margin: 20px 0;
+    list-style: none;
+}
+
+.nav ul li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.nav ul li a {
+    color: black;
+    padding: 9px 29px;
+    transition: all .3s ease-in;
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    background-color: rgba(82, 0, 126, 0.4);
+    color: black;
+    box-shadow: 0 0 10px white;
+    border-radius: 23px;
+}
+
+/* Main Content */
+h1 {
+    text-align: center;
+    text-shadow: 0 0 13px rgb(193, 161, 253);
+    font-size: 110px;
+    margin-top: 100px; /* Adjusted for fixed nav */
+}
+
+main, p, .content a {
+    margin: auto;
+    max-width: 60%;
+    text-decoration: none;
+    color: black;
+    line-height: 2;
+    padding: 5% 8%;
+}
+
+/* Genre Table */
+.side, .side1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 14px rgb(134, 80, 234);
+    margin: auto;
+    padding: 5%;
+    width: 50%;
+}
+
+.side th, .side td, .side1 th, .side1 td {
+    font-size: 20px;
+    text-align: left;
+    background-color: rgb(215, 129, 255);
+    padding: 10px;
+    border-radius: 12px;
+    position: static;
+    border-collapse: collapse;
+}
+
+.side table, .side1 table {
+    width: 90%;
+    margin-left: 4%;
+}
+
+/* Footer */
+footer {
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(196, 159, 249, 0.9);
+    padding: 10px 0;
+    box-sizing: border-box;
+    margin-left: calc(-50vw + 50%);
+    text-align: center;
+}
+
+footer small, footer a {
+    text-shadow: 0 0 12px rgb(135, 89, 251);
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(180, 99, 246);
+    font-size: 18px;
+}
