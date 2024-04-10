@@ -12,20 +12,25 @@
         <h1>Petrol Calculator</h1>
         <div class="number">
             <div>
-                <label for="km">Distance</label>
-            </div>
-            <div>
-                <input type="number" name="Km" id="km" placeholder="1.72">
-            </div>
-            
-            <div>
-                <label for="gas">Fuel</label>
+                <label for="gas">Fuel (Liters)</label>
             </div>  
             <div>
                 <input type="number" name="fuel" id="gas" placeholder="1">
             </div>
+
+            <div>
+                <label for="fuelType">Fuel Type</label>
+            </div>
+            <div>
+                <select id="fuelType">
+                    <option value="eplus91">E-Plus 91</option>
+                    <option value="special95">Special 95</option>
+                    <option value="super98">Super 98</option>
+                    <option value="diesel">Diesel</option>
+                </select>
+            </div>
         </div>
-        <button onclick="Cost()">Total Price:</button>
+        <button onclick="calculateTotalPrice()">Calculate Total Price</button>
         <div id="cost"></div>
     </div>
 </body>
